@@ -1,0 +1,41 @@
+{
+  "name": "grunt-file",
+  "description": "Run a grunt task over a single file",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jalopez/grunt-file",
+  "author": {
+    "name": "Javier López Pardo",
+    "email": "lopez.pardo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jalopez/grunt-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jalopez/grunt-file/issues"
+  },
+  "licenses": [
+    {
+      "type": "APACHE",
+      "url": "https://github.com/jalopez/grunt-file/blob/master/LICENSE-APACHE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
