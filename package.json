@@ -14,12 +14,7 @@
   "bugs": {
     "url": "https://github.com/jalopez/grunt-file/issues"
   },
-  "licenses": [
-    {
-      "type": "APACHE",
-      "url": "https://github.com/jalopez/grunt-file/blob/master/LICENSE"
-    }
-  ],
+  "license": "Apache-2.0",
   "engines": {
     "node": ">= 0.8.0"
   },

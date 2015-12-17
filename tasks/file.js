@@ -9,7 +9,7 @@
 'use strict';
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('file', 'Run a grunt task over a single file. Use: >grunt file:[task] --file [filepath]',
+  grunt.registerTask('file', 'Run a grunt task over a single file. Use: >grunt file:[task] --file [filepath]',
     function(taskName) {
       var filename = grunt.option('file');
       grunt.config.set(taskName + '.file.src', [filename]);
