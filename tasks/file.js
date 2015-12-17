@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     function(taskName) {
       var filename = grunt.option('file');
       grunt.config.set(taskName + '.file.src', [filename]);
-      grunt.log.writeln('Running grunt taskName:file over ' + filename);
+      grunt.log.writeln('Running ' + 'grunt '.green + taskName.green + ':file'.green + ' over ' + filename.green);
       grunt.task.run(taskName + ':file');
     }
   );
