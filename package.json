@@ -17,14 +17,13 @@
   "licenses": [
     {
       "type": "APACHE",
-      "url": "https://github.com/jalopez/grunt-file/blob/master/LICENSE-APACHE"
+      "url": "https://github.com/jalopez/grunt-file/blob/master/LICENSE"
     }
   ],
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.9.2",
@@ -36,6 +35,9 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "grunt",
+    "file",
+    "runner"
   ]
 }
