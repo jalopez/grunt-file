@@ -1,6 +1,6 @@
 /*
- * grunt-file
- * https://github.com/jalopez/grunt-file
+ * grunt-task-file
+ * https://github.com/jalopez/grunt-task-file
  *
  * Copyright (c) 2015 Javier López Pardo
  * Licensed under the APACHE license.
@@ -26,26 +26,6 @@ module.exports = function(grunt) {
     // Before generating any new files, remove any previously-created files.
     clean: {
       tests: ['tmp']
-    },
-
-    // Configuration to be run (and then tested).
-    file: {
-      default_options: {
-        options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      }
     },
 
     // Unit tests.

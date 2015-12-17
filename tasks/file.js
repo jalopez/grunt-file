@@ -1,6 +1,6 @@
 /*
- * grunt-file
- * https://github.com/jalopez/grunt-file
+ * grunt-task-file
+ * https://github.com/jalopez/grunt-task-file
  *
  * Copyright (c) 2015 Javier López Pardo
  * Licensed under the APACHE license.
